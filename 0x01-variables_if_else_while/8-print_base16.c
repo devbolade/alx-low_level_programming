@@ -10,6 +10,7 @@ int main(void)
 	char d = '0';
 
 	while (d <= '9')
+
 	{
 		putchar(d);
 		d++;
@@ -18,10 +19,12 @@ int main(void)
 	char c = 'a';
 
 	while (c <= 'f')
+
 	{
 		putchar(c);
 		c++;
 	}
+
 	putchar('\n');
 	return (0);
 }
