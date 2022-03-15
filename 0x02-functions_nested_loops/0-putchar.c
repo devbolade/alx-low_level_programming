@@ -1,4 +1,4 @@
-#include <_putchar.h>
+#include <main.h>
 /**
  * main - prints the string "_putchar"
  * _putchar -  the character to print
@@ -6,12 +6,17 @@
  */
 int main(void)
 {
-	char, c[] = "_putchar";
+	char, str[] = "_putchar";
 	int i;
 
-	for (i = 0; i < 9; i++)
+	i = 0;
+
+	while (str[i])
+
 	{
-		_putchar(c[i]);
+		_putchar(str[i]);
+
+		++i;
 	}
 
 	_putchar('\n');
